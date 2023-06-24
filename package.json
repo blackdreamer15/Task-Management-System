@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/blackdreamer15/Task-Management-System/issues"
   },
-  "homepage": "https://github.com/blackdreamer15/Task-Management-System#readme"
+  "homepage": "https://github.com/blackdreamer15/Task-Management-System#readme",
+  "dependencies": {
+    "3": "^2.1.0"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
 }
