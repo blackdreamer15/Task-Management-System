@@ -1,0 +1,42 @@
+
+# .gitignore
+
+# Python-related files
+*.pyc
+*.pyo
+TaskManager/TaskManager/__pycache__
+TaskManager/manageme/__pycache__/
+*.pyc
+
+# Development server
+*.log
+
+# Static files (assumes collected static files are served from a separate location)
+# /static/
+
+# Media files (user-uploaded files)
+#/media/
+
+# Database files
+#*.sqlite3
+
+# Environment-specific settings
+.env
+
+# IDE and editor files
+.idea/
+.vscode/
+
+# Dependency management files
+venv/
+env/
+
+# Compiled binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# System-specific files
+.DS_Store
+Thumbs.db
