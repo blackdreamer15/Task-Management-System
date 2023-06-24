@@ -4,6 +4,7 @@
   "description": "A web-based task manager",
   "main": "index.js",
   "scripts": {
+    "compile-sass": "node-sass TaskManager/manageme/static/scss/main.scss TaskManager/manageme/static/css/main.css"
   },
   "repository": {
     "type": "git",
