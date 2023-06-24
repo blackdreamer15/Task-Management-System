@@ -14,9 +14,7 @@ def signup(request):
     return render(request, 'signup.html', {'form': form})
 
 def login(request):
-    if request.method == 'POST':
-        form = LoginForm(request, data=request.POST)
-        if form.is_valid():
+    if request.method.valid():
             user = form.get_user()
             login(request, user)
             return redirect('home')
