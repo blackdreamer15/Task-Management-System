@@ -14,10 +14,10 @@ def signup(request):
     return render(request, 'signup.html', {'form': form})
 
 def login(request):
-    if request.method.valid():
+    if request.method == 'POST':
             user = form.get_user()
             login(request, user)
             return redirect('home')
     else:
         form = LoginForm()
-    return render(request, 'login.html', {'form': form})
+    return render(request, 'index.html', {'form': form})
