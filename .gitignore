@@ -1,6 +1,10 @@
 
 # .gitignore
 
+
+# node module
+./node_modules
+
 # Python-related files
 *.pyc
 *.pyo
